@@ -38,10 +38,19 @@ This will start the server locally, and you can access the API documentation at 
 #### Visualize Data
 
 - **GET /visualization**: Endpoint to visualize data.
+- Parameters:
+    - `column`: Variable name to visualize
 
 #### Train Models
 
 - **GET /models**: Endpoint to train machine learning models and evaluate their accuracy.
+
+#### Predict Fault Type
+
+- **GET /predict**: Predicts the fault type given the data parameters and model (svm,decision,random,xqb,regression)
+- Parameters:
+    - `model`: random_forest, logreg, xgb, svc, decision (defualt)
+    - `input data`: Ia: float, Ib: float, Ic: float, Va: float, Vb: float, Vc: float
 
 ## Example Usage
 
