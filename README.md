@@ -79,6 +79,7 @@ curl -X 'GET' \
 ```
 
 ![alt text](image.png)
+![alt text](image-6.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 ![alt text](image-3.png) (Provides the base-64 of image which can be converted to image in frontend)
